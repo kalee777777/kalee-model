@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "updatedAt": "2026-01-01",
+  "note": "YOUR decision log (L5). Every judgment point gets a row — 30 seconds, three questions: why this option / what else was on the table / what signal proves it right. Refuse to answer → reasoning 'unknown' (weekly sweep asks later). source: hook-confirm (asked at decision time) / hook-diff (final-draft diff) / manual / backfill (mined from history). sensitivity: internal vs sanitizable (safe-to-share after masking) — matters only if you publish derived corpora.",
+  "cases": [
+    {
+      "id": "dl-template-leverage-0101",
+      "date": "2026-01-01",
+      "type": "strategy",
+      "context": "kept polling an inbox manually for replies that arrive at random times",
+      "options": ["keep manual checks", "automate: 15-min delta check that surfaces new replies as task cards"],
+      "decision": "automated it; replies now surface themselves",
+      "reasoning": "manual polling doesn't scale and silently misses things; anything recurring gets the leverage question first",
+      "expectedOutcome": "zero missed replies, hours back per week",
+      "outcome": null,
+      "clientRef": null,
+      "source": "backfill",
+      "sensitivity": "internal",
+      "tags": ["automation", "starter"]
+    },
+    {
+      "id": "dl-template-concession-0102",
+      "date": "2026-01-02",
+      "type": "pricing",
+      "context": "long-relationship buyer pushed for a 10% cut on a repeat order",
+      "options": ["match it to keep the peace", "tiered ladder: each discount trades for volume/term/spec lock"],
+      "decision": "ladder: 5% for a 12-month commitment, 8% for spec simplification, no unilateral cut",
+      "reasoning": "LTV says this account matters — which is exactly why the first no-strings concession is the expensive one; every tier trades for something",
+      "expectedOutcome": "they take one tier within two rounds",
+      "outcome": null,
+      "clientRef": null,
+      "source": "manual",
+      "sensitivity": "sanitizable",
+      "tags": ["pricing", "concession", "starter"]
+    }
+  ]
+}

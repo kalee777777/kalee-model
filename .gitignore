@@ -1,0 +1,4 @@
+# your private judgment library — never commit it
+data/
+__pycache__/
+.DS_Store

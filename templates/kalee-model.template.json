@@ -1,0 +1,68 @@
+{
+  "version": "0.1.0",
+  "updatedAt": "2026-01-01",
+  "identity": "operated-self",
+  "note": "YOUR constitution. identity=operated-self is a hard rule: distill the version of you that runs WITH your systems and compensation mechanisms, not raw instinct. Example rows below are generic starters — replace every one with principles anchored to your own logged cases (validator enforces).",
+  "principles": [
+    {
+      "id": "P01",
+      "text": "Leverage first question: anything recurring gets 'can this never need a human again?' before 'how do I do it?'",
+      "applies": "any process about to run a third time",
+      "exception": "one-off tasks; live interpersonal judgment",
+      "origin": "case",
+      "caseRefs": ["dl-template-leverage-0101"],
+      "compensation": null,
+      "since": "0.1.0",
+      "status": "active"
+    },
+    {
+      "id": "P02",
+      "text": "Read well, externalize the empathy: decisive low-empathy negotiators keep the reading skill and ship empathy as process — forced empathy pass on drafts, personal notes on file, LTV before any concession",
+      "applies": "outbound drafts, conflicts, long relationships (touches empathy weakness)",
+      "exception": "in-person high-trust settings",
+      "origin": "case",
+      "caseRefs": ["dl-template-concession-0102"],
+      "compensation": "review-step checklist: empathy pass + ≤3 personal notes per contact + LTV-before-concession",
+      "since": "0.1.0",
+      "status": "active"
+    },
+    {
+      "id": "P03",
+      "text": "Cadence over pressure: grade-based follow-up rhythm; waiting periods feed value, not reminders; one bump max, then a silence cycle",
+      "applies": "all follow-up sequences, slow deciders",
+      "exception": "customer-supplied timelines",
+      "origin": "case",
+      "caseRefs": ["dl-template-concession-0102"],
+      "compensation": "cadence owned by the system, not the mood",
+      "since": "0.1.0",
+      "status": "active"
+    }
+  ],
+  "rubrics": [
+    {
+      "id": "R01",
+      "topic": "lead-grading",
+      "summary": "two-source confirmation to commit; weak fit downgrades with a window; masks excluded",
+      "skillRef": "your-prospecting-playbook"
+    },
+    {
+      "id": "R02",
+      "topic": "inquiry-triage",
+      "summary": "value × risk double track; stacked red flags = one veto",
+      "skillRef": "your-triage-playbook"
+    }
+  ],
+  "revisions": [
+    {
+      "type": "manual",
+      "date": "2026-01-01",
+      "note": "drafted v0.1.0 — starter rows, replace with your own",
+      "principleIds": []
+    }
+  ],
+  "stats": {
+    "casesTotal": 2,
+    "mirrorChecks": 0,
+    "divergenceRate": null
+  }
+}
