@@ -1,6 +1,6 @@
 # Rubrics — judgment handbook (L2)
 
-Five judgment domains, one line each; point each at your own playbooks instead of rebuilding them here.
+Business judgment domains plus three trial modes. Point domain-specific work at your own playbooks; install only the rubrics that apply to you.
 
 | id | Domain | Standard (one line) | points to |
 |---|---|---|---|
@@ -9,6 +9,9 @@ Five judgment domains, one line each; point each at your own playbooks instead o
 | R03 | pricing-concession | cost transparency + 3-tier ladders + spec variants; every tier trades for something; LTV before conceding; trade-remedy exposure lives in clauses | your pricing playbook |
 | R04 | written-style | positioning axes → zero assertion → trust via facts → offer fits function → verifiable deliverable list | style-pack.md |
 | R05 | timing | send windows from open history × timezone; grade-based cadence; ≤1 bump; seasonal buying cycles beat copy | your cadence playbook |
+| R06 | strategy-analysis (trial) | objectives and resources → alternatives and opportunity cost → strongest objection → assumptions and reversal conditions → minimum experiment | [strategy.md](strategy.md) |
+| R07 | project-planning (trial) | existing commitments → charter → dependencies and capacity → work packages and acceptance → actual task system | [project-planning.md](project-planning.md) |
+| R08 | outcome-review (trial) | preserve original expectations → compare actual evidence → continue/change/stop → update the original case | [outcome-review.md](outcome-review.md) |
 
 **Deputy output format** (low-stakes domains only):
 
