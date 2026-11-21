@@ -1,6 +1,10 @@
 # kalee-model
 
+[![M8ven Score](https://m8ven.ai/badge/mcp/kalee777777/kalee-model)](https://m8ven.ai/mcp/kalee777777/kalee-model?s=readme)
+
 **Turn your judgment into a versioned operating system your AI agents can run.**
+
+> **What this is / is not:** kalee-model is a *file-based agent skill* — `SKILL.md`, JSON contracts and one validator script. It is **not a networked MCP server**: there is no server runtime, no network calls and no secrets handling. It runs *inside* any MCP-capable coding agent (Claude Code / Cursor / Trae / ZCode) by reading files from your repo. See [CHANGELOG.md](CHANGELOG.md) for release history.
 
 You already trust your gut on the calls that matter — pricing, hiring, walk-away. The problem: judgment lives in one head, evaporates under a busy week, and every AI assistant you hire starts from zero. kalee-model distills *how you decide* into three versioned artifacts — a **constitution**, a **decision log**, a **style pack** — plus agent workflows that use them:
 
@@ -49,6 +53,7 @@ mkdir -p data
 cp templates/kalee-model.template.json data/kalee-model.json
 cp templates/decision-log.template.json data/decision-log.json
 python3 scripts/check_distill.py            # validates schema + anchors (WARN until you fill it)
+python3 -m unittest discover -s tests       # run the validator's test suite (no dependencies)
 ```
 
 1. **Log 10 real decisions first.** After any call you make (grade a lead, pick a price, kill a thread), spend 30 seconds on three questions: *why this option, what else was on the table, what signal would prove it right.* Refuse to answer? Log `reasoning: "unknown"` — a weekly sweep batch-asks them later.
