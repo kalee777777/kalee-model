@@ -1,6 +1,6 @@
 # kalee-model
 
-[![M8ven Score](https://m8ven.ai/badge/mcp/kalee777777/kalee-model)](https://m8ven.ai/mcp/kalee777777/kalee-model?s=readme)
+[![M8ven Score](https://m8ven.ai/badge/mcp/kalee777777-kalee-model-17f0fd?v=c01c0466820824cc1f8dddbe5e7df303)](https://m8ven.ai/mcp/kalee777777-kalee-model-17f0fd?s=readme)
 
 **Turn your judgment into a versioned operating system your AI agents can run.**
 
